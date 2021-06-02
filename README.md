@@ -1,5 +1,3 @@
-Under development  
-
 # Project Overview: Predicting the number of wins teams achieved using the 'four factors' of basketball
 * Project was to use ML to predict the win percentage of teams in the NBA
 * Completed two models - one with traditional statistics, and one using the 'four factors' of basketball
@@ -43,17 +41,30 @@ The next statistics are:
 The four factor model also includes the oppositions statistics.  
 
 ## Model Building 
-
-Linear regression
+* The training data was from the 2017, 2018, 2019 and 2020 seasons and the test data was from the current 2021 season.
+* I could have used a larger training set howver I opted to use a smaller one as in the past half decade the game has evolved to a different play style centred around 3-point shooting and pace. I analysed both of these factors and decided the furthest I could go back to ensure that the prediction applied appropriately to the current state of the NBA.
+* The model will be a linear regression
   
 
-
 ## Model performance
+* The model had a root mean square error of 4.7(%) and a mean absolute error of 3.8(%)
+* The R squared value for the four factor model was 0.882
+* The R squared value for the traditional statistics was 0.873
 
-R squared and predictions
-RMSE = 4.7(%)  
-MAE = 3.8(%)
-Visuals
+The four factor model was slighlty more effective despite using much fewer data points. This means that the four factors are very helpful when assessing how good a team is.
+
+## Predictions
+  
+  Traditional | Advanced (Four Factors)
+--- | ---
+![alt text](https://raw.githubusercontent.com/MattBenyon/FourFactorsRegression/master/Images/TradLarge.png "Traditional Stats") | ![alt text](https://raw.githubusercontent.com/MattBenyon/FourFactorsRegression/master/Images/FourFactors.png "Four Factors")  
+  
+These visualisations demonstrate the effectiveness of the model at predicting a teams win percentage. One issue with the four factor model is it appears to have over predicted for a couple of teams with lower win percentages. This is most likely down to the teams underachieving compared to their four factors. 
+  
+The model was particularly effective at predicting the win percentages of the teams with better win percentages while less effective with lower win percentage teams. This most likely is due to a number of complex interactions of different variables that can be summed up by the fact that poor teams are less consistent have less to play for.
+  
+
+Please feel free to make any recomendations on how to improve this project.
 
 
 
