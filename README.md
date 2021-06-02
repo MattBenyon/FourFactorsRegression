@@ -15,10 +15,17 @@ NBA API is clean so only had to merge data sets for analysis
 
 
 ## EDA
+Correlation plot
+
 
 ## Model Building 
 
+Linear regression
+
 ## Model performance
+
+R squared and predictions
+Visuals
 
 
 
