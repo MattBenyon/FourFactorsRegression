@@ -1,4 +1,4 @@
-Under dev.
+Under development  
 
 # Predicting the number of wins teams achieved using the 'four factors' of basketball: Project Overview 
 * analysis of four factors
