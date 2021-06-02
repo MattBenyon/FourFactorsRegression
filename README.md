@@ -32,8 +32,7 @@ As can be seen in these correlation plots, basketball statistics have little cor
 The 'four factor' model attempts to capture this into four statistics. Instead of using field goal percentage, the model uses effective field goal percentage to determine a teams efficiency.
 
 <div align="center"> eFG% = (FGM + 0.5 * 3FGM) / FGA    
-<div align="left">  
-<br/><br/> 
+<div align="left">  <br/><br/> 
 Effective field goal percentage takes into consideration the efficiency of a 3-point shot compared with a 2-point shot.
   
 The next statistics are:
