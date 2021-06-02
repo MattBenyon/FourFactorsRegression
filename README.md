@@ -1,6 +1,6 @@
 Under development  
 
-# Predicting the number of wins teams achieved using the 'four factors' of basketball: Project Overview 
+# Project Overview: Predicting the number of wins teams achieved using the 'four factors' of basketball
 * analysis of four factors
 
 ## Code and Resources Used 
