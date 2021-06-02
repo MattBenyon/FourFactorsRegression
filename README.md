@@ -42,7 +42,7 @@ The four factor model also includes the oppositions statistics.
 
 ## Model Building 
 * The training data was from the 2017, 2018, 2019 and 2020 seasons and the test data was from the current 2021 season.
-* I could have used a larger training set howver I opted to use a smaller one as in the past half decade the game has evolved to a different play style centred around 3-point shooting and pace. I analysed both of these factors and decided the furthest I could go back to ensure that the prediction applied appropriately to the current state of the NBA.
+* I could have used a larger training set however I opted to use a smaller one as in the past half decade the game has evolved to a different play style centred around 3-point shooting and pace. I analysed both of these factors and decided the furthest I could go back to ensure that the prediction applied appropriately to the current state of the NBA.
 * The model will be a linear regression
   
 
