@@ -67,6 +67,6 @@ teamsperformance_train = pd.concat([teamsperformance2019,
 
 # Export CSV files
 
-teamsperformance_train.to_csv('FourFactorsTrainingData.csv', index = False)
+teamsperformance_train.to_csv('Data/FourFactorsTrainingData.csv', index = False)
 
-teamsperformance_test.to_csv('FourFactorsTestingData.csv', index = False)
+teamsperformance_test.to_csv('Data/FourFactorsTestingData.csv', index = False)

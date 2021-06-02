@@ -16,11 +16,11 @@ from sklearn.utils import shuffle
 # Read in the CSV
 
 
-#teamsperformance_train = pd.read_csv("FourFactorsTrainingData.csv")
-teamsperformance_train = pd.read_csv("TraditionalLargeTrainingData.csv")
+teamsperformance_train = pd.read_csv("FourFactorsTrainingData.csv")
+#teamsperformance_train = pd.read_csv("Data/TraditionalLargeTrainingData.csv")
 
-#teamsperformance_test = pd.read_csv("FourFactorsTestingData.csv")
-teamsperformance_test = pd.read_csv("TraditionalLargeTestingData.csv")
+teamsperformance_test = pd.read_csv("FourFactorsTestingData.csv")
+#teamsperformance_test = pd.read_csv("Data/TraditionalLargeTestingData.csv")
 
 
 # Split the data into numpy arrays for training and testing the model
@@ -86,4 +86,4 @@ predicted_wins["Predicted Ls"] = (games_in_season - round((predicted_wins['Predi
 print(predicted_wins.sort_values('Predicted Ws',ascending=False))
 
 
-predicted_wins.to_csv("WinPredictionsTradLarge.csv")
+predicted_wins.to_csv("Data/WinPredictionsFourFactors.csv")

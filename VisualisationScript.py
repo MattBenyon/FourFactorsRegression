@@ -11,7 +11,7 @@ import numpy as np
 
 # Read the Four factor data
 
-predicted_wins = pd.read_csv("WinPredictionsFourFactors.csv")
+predicted_wins = pd.read_csv("Data/WinPredictionsFourFactors.csv")
 
 # Visualisation of the data
 
@@ -32,13 +32,13 @@ plt.title("Four Factors Predictions")
 plt.text(0.25,0.75, "R-squared value = 0.882")
 fig = plt.gcf()
 fig.set_size_inches(10, 10)
-plt.savefig('FourFactors.png')
+plt.savefig('Images/FourFactors.png')
 
 plt.show()
 
 # Read the Traditional data
 
-predicted_wins = pd.read_csv("WinPredictionsTradLarge.csv")
+predicted_wins = pd.read_csv("Data/WinPredictionsTradLarge.csv")
 
 # Visualisation of the data
 
@@ -54,7 +54,7 @@ plt.title("Traditional stats Predictions")
 plt.text(0.25,0.75, "R-squared value = 0.873")
 fig = plt.gcf()
 fig.set_size_inches(10, 10)
-plt.savefig('TradLarge.png')
+plt.savefig('Images/TradLarge.png')
 
 plt.show()
 
@@ -62,7 +62,7 @@ plt.show()
 
 import seaborn as sns
 
-data = pd.read_csv('FourFactorsTrainingData.csv')
+data = pd.read_csv('Data/FourFactorsTrainingData.csv')
 plt.style.use('default')
 sns.set_theme(style="white")
 corr = data.corr()
@@ -83,14 +83,14 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
 fig = plt.gcf()
 fig.set_size_inches(18.5, 10.5)
 plt.title("Correlation of basketball four factors",fontsize=26)
-plt.savefig('FourFactorsCorr.png', bbox_inches="tight")
+plt.savefig('Images/FourFactorsCorr.png', bbox_inches="tight")
 plt.show()
 
 # Correlation plot for traditional statsitics
 
 import seaborn as sns
 
-data = pd.read_csv('TraditionalLargeTrainingData.csv')
+data = pd.read_csv('Data/TraditionalLargeTrainingData.csv')
 plt.style.use('default')
 sns.set_theme(style="white")
 corr = data.corr()
@@ -110,5 +110,5 @@ sns.heatmap(corr, mask=mask, cmap=cmap, vmax=.3, center=0,
 fig = plt.gcf()
 fig.set_size_inches(18.5, 10.5)
 plt.title("Correlation of basketball statistics",fontsize=26)
-plt.savefig('TraditionalCorr.png', bbox_inches="tight")
+plt.savefig('Images/TraditionalCorr.png', bbox_inches="tight")
 plt.show()
