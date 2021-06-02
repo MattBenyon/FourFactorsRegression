@@ -64,7 +64,7 @@ These visualisations demonstrate the effectiveness of the model at predicting a 
 The model was particularly effective at predicting the win percentages of the teams with better win percentages while less effective with lower win percentage teams. This most likely is due to a number of complex interactions of different variables that can be summed up by the fact that poor teams are less consistent have less to play for.
   
 
-Please feel free to make any recomendations on how to improve this project.
+### Please feel free to make any recomendations on how to improve this project.
 
 
 
