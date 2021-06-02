@@ -34,7 +34,6 @@ The 'four factor' model attempts to capture this into four statistics. Instead o
 <div align="center"> eFG% = (FGM + 0.5 * 3FGM) / FGA    
 <div align="left">  
 <br/><br/> 
-  
 Effective field goal percentage takes into consideration the efficiency of a 3-point shot compared with a 2-point shot.
   
 The next statistics are:
