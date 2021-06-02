@@ -45,10 +45,14 @@ The four factor model also includes the oppositions statistics.
 ## Model Building 
 
 Linear regression
+  
+
 
 ## Model performance
 
 R squared and predictions
+RMSE = 4.7(%)  
+MAE = 3.8(%)
 Visuals
 
 
